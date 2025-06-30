@@ -1,0 +1,53 @@
+/* Style global sistem inventaris martabak - by Awan */
+
+/* Body default */
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+   
+}
+
+/* Container umum */
+.container {
+    max-width: 1000px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 50px;
+}
+
+/* Judul halaman */
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Tabel global */
+.table th {
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Tombol utama */
+.btn-primary {
+    width: 100%;
+     margin-top: 15px;
+}
+
+/* Tombol kembali ke dashboard */
+.btn-secondary {
+    width: 100%;
+    margin-top: 20px;
+}
